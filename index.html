@@ -7,28 +7,25 @@
     <title>Flappy Bird Clone Landing Page</title>
     <meta name="description" content="A brief description of your site">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="site/css/font-awesome.min.css">
+    <link rel="stylesheet" href="site/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/v3.0.3/normalize.min.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P|Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="site/css/sass-styles.css">
+    <link rel="stylesheet" href="site/css/styles.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="#intro">About</a>
-            </li>
-            <li><a href="#call-to-action">Play</a></li>
-            <li>
-                <a href="#video-images">Video and Images</a>
-            </li>
-        </ul>
-    </nav>
+    <section class="start-up">
+        <div class="choices">
 
+            <ul>
+                <li><a href="#call-to-action">Play</a></li>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#video-images">Video and Images</a></li>
+            </ul>
+        </div>
+    </section>
     <hr>
     <section id="intro">
         <p>Flappy Bird was a highly addictive game for many people across the world. Developed by one man out of Vietnam named Don Nguyen and .Gears Studio in 2013.</p>
@@ -37,8 +34,26 @@
     </section>
     <div id="video-images">
         <section class="videos">
+            <ul>
+                <li>
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/YHH2101OFfI" frameborder="0" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/UloBiVGtAP4" frameborder="0" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/oRDh2b1oLas" frameborder="0" allowfullscreen></iframe>
+                </li>
+            </ul>
         </section>
-        <section class="images"></section>
+        <section class="images">
+            <ul>
+                <li><img src="site/img/flappy.jpg" alt="flappy"></li>
+                <li><img src="site/img/start.jpg" alt="start-screen"></li>
+                <li><img src="site/img/flying.jpg" alt="flying"></li>
+                <li><img src="site/img/game-over.png" alt="game-over"></li>
+            </ul>
+        </section>
     </div>
 
     <section id="call-to-action">
@@ -46,10 +61,11 @@
         <button class="play">Play Now!</a>
     </section>
 
-    <footer id="social">
+    <footer id="contact">
         <div class="content">
-            <hr>
+
             <h5>Contact Me On Here</h5>
+            <hr>
             <ul class="icons">
                 <li class="email">
                     <i class="fa fa-envelope">
@@ -57,14 +73,10 @@
                     </i>
                 </li>
                 <li class="facebook">
-                    <i class="fa fa-facebook">
-
-                    </i>
+                    <i class="fa fa-facebook-official"></i>
                 </li>
                 <li class="github">
-                    <i class="fa fa-github">
-
-                    </i>
+                    <i class="fa fa-github-square"></i>
                 </li>
             </ul>
 
