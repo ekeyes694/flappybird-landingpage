@@ -7,12 +7,94 @@
     <title>Flappy Bird Clone Landing Page</title>
     <meta name="description" content="A brief description of your site">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="site/css/font-awesome.min.css">
-    <link rel="stylesheet" href="site/css/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/v3.0.3/normalize.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P|Oswald' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="site/css/sass-styles.css">
-    <link rel="stylesheet" href="site/css/styles.css">
+    <style>
+        body {
+            background-color: yellowgreen;
+        }
+
+        .choices {
+            margin-top: 5.5em;
+            margin-right: 1em;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .start-up {
+            background-image: url("http://technozed.com/wp-content/uploads/2015/01/flappy-bird.jpg");
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 10.938rem;
+            overflow: auto;
+        }
+
+        .start-up .choices ul li {
+            display: inline-block;
+            list-style: none;
+            width: 60%;
+        }
+
+        .start-up .choices ul li a {
+            color: white;
+            font-size: .6em;
+            text-decoration: none;
+        }
+
+        #intro {
+            border: 2px dashed darkorange;
+            padding: 1em;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Oswald', sans-serif;
+            color: gold;
+            letter-spacing: .1em;
+            background-color: darkturquoise;
+        }
+
+        hr {
+            border-top: 1px solid gold;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media only screen and (min-width: 480px) {
+            .start-up {
+                height: 14.938rem;
+            }
+            .choices {
+                margin-top: 7.5em;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .start-up {
+                height: 26.938rem;
+            }
+            .choices {
+                margin-top: 15.5em;
+            }
+            .start-up .choices ul li {
+                margin-top: .5em;
+            }
+            .start-up .choices ul li a {
+                font-size: 1em;
+            }
+            hr {
+                width: 95%;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) {
+            .start-up {
+                height: 41.938rem;
+            }
+            .choices {
+                margin-top: 22.5em;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -81,6 +163,12 @@
 
         </div>
     </footer>
+    <link rel="stylesheet" href="site/css/font-awesome.min.css">
+    <link rel="stylesheet" href="site/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/v3.0.3/normalize.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P|Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="site/css/sass-styles.css">
+    <link rel="stylesheet" href="site/css/styles.css">
 </body>
 
 </html>

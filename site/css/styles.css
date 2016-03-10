@@ -9,7 +9,7 @@ body {
 }
 
 .start-up {
-    background-image: url('/site/img/flappy-bird.jpg');
+    background-image: url("http://technozed.com/wp-content/uploads/2015/01/flappy-bird.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
