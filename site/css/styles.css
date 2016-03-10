@@ -9,7 +9,7 @@ body {
 }
 
 .start-up {
-    background-image: url('../site/img/flappy-bird.jpg');
+    background-image: url('/site/img/flappy-bird.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
