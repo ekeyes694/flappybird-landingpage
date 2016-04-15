@@ -8,4 +8,7 @@ button is broken, just meant to help create a landing page not the game.
 
 **Used for educational purposes through Thinkful Bootcamp**
 
+## Link to Website
+
+http://ekeyes694.github.io/flappybird-landingpage/
 
